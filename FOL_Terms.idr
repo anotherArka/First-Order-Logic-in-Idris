@@ -23,7 +23,6 @@ public export
 data Function_Type : Nat -> Type where
     Function : String -> (parity : Nat) -> (Function_Type parity)
 
-
 ||| Type of terms in the FOL
 public export
 data FOL_Terms : Type where
