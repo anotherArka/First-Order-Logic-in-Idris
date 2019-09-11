@@ -2,12 +2,6 @@ module FOL_Terms
 
 import Data.Vect
 
-||| This is possible values a constant can take. We can change this according
-||| our requirement
-public export
-Field : Type
-Field = Nat    
-
 ||| The type of symbol of variables of FOL
 public export
 data Variable_symbols : Type where
